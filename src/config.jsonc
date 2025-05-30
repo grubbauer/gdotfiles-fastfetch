@@ -63,7 +63,7 @@
 		},
 		{
 			"type": "shell",
-			"format": "{pretty-name} v{version}",
+			"format": "{pretty-name} {version}",
 			"key": "[SHELL]",
 			"keyColor": "yellow"
 		},
