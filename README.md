@@ -18,6 +18,25 @@ color (#292c35)
 
 ## Installation
 
+### Arch
+
+To use the pacman package manager (which has an advanage by updating with every
+other package), edit `/etc/pacman.conf` and append this:
+
+```ini
+[gdotfiles]
+SigLevel = Optional TrustAll
+Server = https://grubbauer.github.io/gdotfiles/
+```
+
+After that, update the pacman database with `pacman -Syu` and then run the
+command `pacman -S gdotfiles-fastfetch`.
+
+After it has finished installing, just run this command:
+`/usr/share/gdotinstaller.fastfetch/installer`
+
+### Other linux
+
 Clone this repository and execute the following script:
 
 ```bash
